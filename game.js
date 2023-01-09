@@ -8,7 +8,7 @@ var started = false;
 var level=0;
 
 
-$(document).ontouchstart(function()
+$(document).click(function()
 {
   if(!started)
   {
