@@ -7,7 +7,8 @@ var userClickedPattern=[];
 var started = false; 
 var level=0;
 
-$(document).keypress(function()
+
+$(document).ontouchstart(function()
 {
   if(!started)
   {
@@ -76,7 +77,7 @@ function faLse()
     $("body").removeClass("game-over");
   },200);
 
-  $("#level-title").text("Game over, press any key to continue !!");
+  $("#level-title").text("Game over, press any key or touch anywhere to continue !!");
 
   startOver();
 }
@@ -100,3 +101,4 @@ function startOver()
   gamePattern=[];
   started=false;
 }
+
