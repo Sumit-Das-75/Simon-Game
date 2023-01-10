@@ -8,7 +8,7 @@ var started = false;
 var level=0;
 
 
-$(document).click(function()
+$(".sum").click(function()
 {
   if(!started)
   {
