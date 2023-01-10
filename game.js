@@ -77,7 +77,7 @@ function faLse()
     $("body").removeClass("game-over");
   },200);
 
-  $("#level-title").text("Game over, press any key or touch anywhere to continue !!");
+  $("#level-title").text("Game over, press again to continue");
 
   startOver();
 }
